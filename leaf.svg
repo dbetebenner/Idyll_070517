@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="125px" viewBox="0 0 132 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>leaf</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="leaf" transform="translate(1.000000, 1.000000)" fill-rule="nonzero">
+            <rect id="Rectangle-1" stroke="#FFFFFF" fill="#FFFFFF" x="0" y="0" width="130" height="123" rx="26"></rect>
+            <path d="M31.741,82.634 C31.741,82.634 41.179,80.568 48.116,85.07 L53.669,74.909 L37.354,31.641 C37.354,31.641 26.633,43.827 24.95,57.004 C24.948,57.003 21.985,70.25 31.741,82.634 L31.741,82.634 L31.741,82.634 L31.741,82.634 Z" id="Shape" fill="#0696A6" opacity="0.753736413"></path>
+            <path d="M63.49,101.051 C63.49,101.051 60.597,91.83 53.245,88.042 L59.308,78.183 L104.969,70.867 C104.969,70.867 99.712,86.221 89.113,94.226 C89.112,94.226 79.082,103.371 63.49,101.051 L63.49,101.051 L63.49,101.051 L63.49,101.051 Z" id="Shape" fill="#BCC831" opacity="0.753736413"></path>
+            <path d="M58.086,66.583 L67.299,50.72 L58.603,18.227 C58.603,18.227 47.707,22.059 41.294,28.002 L58.086,66.583 L58.086,66.583 L58.086,66.583 L58.086,66.583 Z" id="Shape" fill="#0696A6" opacity="0.753736413"></path>
+            <path d="M64.025,69.966 L72.966,53.949 L105.351,44.852 C105.351,44.852 107.613,56.179 105.772,64.727 L64.025,69.966 L64.025,69.966 L64.025,69.966 L64.025,69.966 Z" id="Shape" fill="#BCC831" opacity="0.753736413"></path>
+            <polygon id="Shape" fill="#0696A6" opacity="0.753736413" points="63.326 16.547 71.795 41.969 94.519 6.308 63.326 16.547"></polygon>
+            <polygon id="Shape" fill="#BCC831" opacity="0.753736413" points="104.332 39.334 78.278 44.578 97.767 7.438 104.332 39.334"></polygon>
+            <path d="M32.93,116.059 L47.055,109.101 C47.055,109.101 49.658,107.742 45.941,104.481 C45.941,104.481 42.302,99.402 34.266,98.807 C34.266,98.807 32.297,98.548 32.381,100.772 L32.378,116.059" id="Shape" fill="#808083" opacity="0.753736413"></path>
+        </g>
+    </g>
+</svg>

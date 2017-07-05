@@ -1,0 +1,104 @@
+[LiteraseeLogo /]
+
+[Header
+  title:"Component: Header"
+  subtitle:"This title, subtitle, and byline are created using the code below"
+  author:"Aristotle Jenkins"
+  authorLink:"http://weirdal.com/" /]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus blandit lacus, eu pulvinar sem bibendum in. Vivamus sollicitudin magna ac tellus fermentum, sed vestibulum velit pulvinar. Fusce eget leo in nisi posuere aliquam. Nam vehicula leo diam, sed placerat urna pretium eu. Sed dignissim malesuada volutpat. Sed ultricies at libero eget ornare. Cras iaculis neque est. Nullam vel aliquet est, et aliquam enim.
+
+```
+[Header
+  title:"Component: Header"
+  subtitle:"This title, subtitle, and byline are created using the Header component"
+  author:"Aristotle Jenkins"
+  authorLink:"http://weirdal.com/" /]
+```
+
+Nam ut ullamcorper diam. Mauris placerat sem ante, pulvinar viverra odio tincidunt vitae. Mauris mollis erat nisi. Sed nec eros dolor. Cras ut aliquam diam. In hac habitasse platea dictumst. In sagittis libero vel sapien sodales eleifend quis nec dui. Quisque vulputate, justo sit amet aliquam facilisis, purus risus fermentum mi, dapibus sodales felis est vitae sapien. Ut mattis, mi vitae tincidunt fringilla, magna urna congue augue, at aliquet turpis sapien nec nibh. Etiam sit amet faucibus nisl. Suspendisse potenti.
+
+[aside]
+[var name:`dataToBeCharted` value:`[
+  {x: 0, y: 0.5},
+  {x: 3.5, y: 0.5},
+  {x: 4, y: 0},
+  {x: 4.5, y: 1},
+  {x: 5, y: 0.5},
+  {x: 8, y: 0.5}
+]` /]
+[Chart type:"line" data:dataToBeCharted /]
+[caption]Cras tristique sed diam nec auctor elit.[/caption]
+[/aside]
+
+# Component: Aside
+The `aside` component allows you to include information or graphcis in the sidebar. The code for that chart can be seen here:
+
+```
+[var name:dataToBeCharted value:[
+  {x: 0, y: 0.5},
+  {x: 3.5, y: 0.5},
+  {x: 4, y: 0},
+  {x: 4.5, y: 1},
+  {x: 5, y: 0.5},
+  {x: 8, y: 0.5}
+] /]
+[Chart type:"line" data:dataToBeCharted /]
+```
+
+Donec non orci a arcu ultrices mollis non porttitor elit. Maecenas id orci ultrices, dictum erat ut, ullamcorper ante. Vivamus vehicula ante ex, id sodales metus euismod nec. Quisque egestas tortor tellus, at rutrum risus blandit sit amet. Donec pellentesque vehicula mi id eleifend. Donec ac vestibulum nisl. Cras sodales ut est non porttitor. Sed lacus mi, sagittis et scelerisque vitae, ornare vitae mauris. Curabitur faucibus erat ut purus ultrices, lacinia tempus magna ullamcorper. Praesent id suscipit elit. Praesent elementum tellus non ultrices sodales.
+
+Fusce tellus turpis, auctor luctus neque eu, pretium semper lacus. Nam tempus nunc sed laoreet volutpat. Sed rhoncus diam ac suscipit dignissim. Quisque neque arcu, finibus vitae mattis et, lacinia eget ex. Pellentesque risus dolor, tristique varius lacus vitae, tincidunt efficitur quam. Curabitur commodo nunc turpis, in sagittis dui mattis eget. Praesent urna purus, venenatis a orci nec, tempus tincidunt sapien. Nam bibendum nibh velit, facilisis vehicula dolor condimentum quis. Fusce sed arcu at enim aliquet fermentum eu vulputate erat. Maecenas tristique, lorem ac consectetur pretium, tellus lacus faucibus erat, quis viverra quam urna non turpis. Ut ut consequat dui, nec molestie diam. Aliquam nisi risus, aliquam tempor diam in, tristique placerat justo.
+
+# Component: Chart
+Basic charts are included out of the box like we saw in the aside above. Charts can also be included in the main body, like the scatter plot below.
+[Chart type:"scatter" data:dataToBeCharted /]
+
+Cras nec vestibulum leo. Etiam pellentesque facilisis arcu sit amet porta. In hac habitasse platea dictumst. Praesent in ornare ipsum, eu tincidunt arcu. Suspendisse id tortor tempus, molestie neque sed, ullamcorper massa. Nunc faucibus posuere nisl, vitae fringilla sem dictum sit amet. Phasellus in ex tristique, sollicitudin dolor a, sodales elit. Nunc a vulputate enim, vel aliquet ligula. In placerat est at dignissim rhoncus. Sed iaculis vel elit non pellentesque. In commodo imperdiet hendrerit. Curabitur aliquam suscipit finibus.
+
+Sed non ultricies felis, sed suscipit nisi. Duis vitae ipsum bibendum odio mollis pellentesque. Proin congue risus et metus faucibus, id auctor ligula congue. Integer blandit ligula a eros porta varius. Integer tincidunt tempus nunc, mollis tristique ligula pulvinar id. Phasellus at ornare lacus. Sed eget nunc hendrerit, accumsan nibh sit amet, laoreet nisi. In nisi nunc, vestibulum non elementum eget, faucibus vitae neque. Praesent a luctus purus. Nunc massa enim, facilisis sed nisl rutrum, consectetur efficitur quam. Aenean dolor lectus, eleifend non scelerisque quis, maximus id arcu. In aliquet ultrices ipsum eu ornare. Nullam eget nulla in augue feugiat dapibus. Suspendisse in nisi eros. Aliquam non blandit ex, id dapibus massa. Sed laoreet porttitor mauris eget rutrum.
+
+# Component: Equation
+
+Mathematical equations can also be shown. These equations are powered by [KaTeX](https://github.com/Khan/KaTeX), a modern alternative to LaTeX.
+
+[h2]
+[Equation]
+  y = \int x^2 dx
+[/Equation]
+[/h2]
+
+Nam venenatis rutrum consequat. Praesent commodo, magna id rutrum cursus, nulla nulla porttitor sem, at tincidunt tortor massa id ante. Maecenas efficitur dignissim purus, quis convallis elit tincidunt quis. In porttitor nisl vel nunc mollis, sed aliquam metus semper. Nulla facilisi. Vestibulum mattis nunc non mauris finibus, a accumsan mi ornare. Nulla odio risus, efficitur sit amet hendrerit eget, accumsan ut leo. Aliquam consectetur efficitur condimentum. Vestibulum laoreet massa lectus, id sodales elit tempor eget. Ut pulvinar ante a tortor posuere, sed eleifend diam euismod.
+
+Even complex equations are supported.
+
+[h2]
+[Equation]
+    f(x) = \int_{-\infty}^\infty
+    \hat f(\xi)\,e^{2 \pi i \xi x}
+    \,d\xi
+[/Equation]
+[/h2]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse leo quam, rhoncus vel neque non, lacinia lobortis nibh. Aenean non nisl erat. Donec a pellentesque felis. Curabitur facilisis commodo quam, et feugiat elit ultrices non. Maecenas ornare urna ac facilisis vehicula. Donec fringilla libero ut eleifend commodo. Sed hendrerit, arcu sed vestibulum varius, sapien tortor molestie leo, at bibendum risus risus ut ipsum.
+
+Cras nec vestibulum leo. Etiam pellentesque facilisis arcu sit amet porta. In hac habitasse platea dictumst. Praesent in ornare ipsum, eu tincidunt arcu. Suspendisse id tortor tempus, molestie neque sed, ullamcorper massa. Nunc faucibus posuere nisl, vitae fringilla sem dictum sit amet. Phasellus in ex tristique, sollicitudin dolor a, sodales elit. Nunc a vulputate enim, vel aliquet ligula. In placerat est at dignissim rhoncus. Sed iaculis vel elit non pellentesque. In commodo imperdiet hendrerit. Curabitur aliquam suscipit finibus.
+
+# Component: SVG
+
+You can display SVGs directly in your page.
+
+[SVG src: "literasee-logo.svg" /]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dolor sit amet nulla eleifend porta. Nunc nec nunc a erat commodo pellentesque. Maecenas iaculis ac urna ac viverra. Pellentesque consectetur rhoncus tempus. Integer eget velit at tellus scelerisque scelerisque quis vitae elit. Cras efficitur condimentum ipsum quis bibendum. Suspendisse porttitor rutrum lorem. Nullam vehicula ligula dolor, a blandit nisl gravida id. Phasellus et sem dignissim, lacinia nulla et, dignissim felis. Maecenas viverra quam eget quam dapibus, eget euismod urna maximus. Nam in pretium diam. Integer ornare laoreet justo. Mauris orci velit, tincidunt a consequat ut, sollicitudin nec leo. Sed ornare orci eros, volutpat venenatis dui ultrices eget. Etiam fringilla volutpat nulla, quis imperdiet urna scelerisque in. Ut neque nisi, placerat ut enim a, vehicula cursus tellus.
+
+# Component: Table
+
+You can even include data tables. This one has some custom styling applied but the basic functionality is available out of the box.
+
+[data name:"complaints" source:"complaints.json" /]
+[ComplaintsTable data:complaints /]
+
+Maecenas molestie diam in velit ornare faucibus. Nam vitae dignissim massa, vitae mollis nunc. Vivamus tempus, arcu vitae aliquet sollicitudin, dui ligula lacinia nulla, eu ultricies nisi lectus condimentum libero. Ut eleifend purus laoreet omg tincidunt elementum. Ut rutrum porttitor orci, id pellentesque quam posuere at. Morbi in lectus quis enim suscipit luctus. Integer elementum ultrices nisl, placerat dapibus purus cursus et. Etiam condimentum libero eget diam porta consequat. Praesent efficitur scelerisque pretium. Sed dapibus eget sapien ac placerat. Proin sit amet ligula felis. Nulla facilisi. Aenean et fringilla ligula, nec porttitor turpis.
+
+Fusce molestie blandit laoreet. Nam tincidunt dictum turpis vel suscipit. Cras quis convallis mi, eu facilisis justo. Nunc luctus, arcu tristique congue gravida, tortor diam condimentum nisi, in pharetra sapien dolor id dui. Quisque lectus odio, hendrerit ultrices ornare eu, rhoncus non augue. Nullam at porttitor mi, at luctus ipsum. Aenean vulputate augue sed nisl condimentum, non pharetra justo tincidunt. Nam ullamcorper interdum porta. In viverra felis nisl, vitae aliquet tellus facilisis sit amet. Quisque accumsan pretium tincidunt.

@@ -1,0 +1,92 @@
+[
+  {
+    "key": "Bank of America",
+    "values": {
+      "totalComplaints": 64563,
+      "percentTimelyResponse": 0.9758065765221566,
+      "percentCustomerDisputed": 0,
+      "topIssue": "Loan modification, collection, foreclosure"
+    }
+  },
+  {
+    "key": "Wells Fargo & Company",
+    "values": {
+      "totalComplaints": 52148,
+      "percentTimelyResponse": 0.9540730229247243,
+      "percentCustomerDisputed": 0,
+      "topIssue": "Loan modification, collection, foreclosure"
+    }
+  },
+  {
+    "key": "Equifax",
+    "values": {
+      "totalComplaints": 46034,
+      "percentTimelyResponse": 0.9999782769257506,
+      "percentCustomerDisputed": 0,
+      "topIssue": "Incorrect information on credit report"
+    }
+  },
+  {
+    "key": "Experian",
+    "values": {
+      "totalComplaints": 43345,
+      "percentTimelyResponse": 0.9998615757296112,
+      "percentCustomerDisputed": 0,
+      "topIssue": "Incorrect information on credit report"
+    }
+  },
+  {
+    "key": "JPMorgan Chase & Co.",
+    "values": {
+      "totalComplaints": 41463,
+      "percentTimelyResponse": 0.9978776258350819,
+      "percentCustomerDisputed": 0,
+      "topIssue": "Loan modification, collection, foreclosure"
+    }
+  },
+  {
+    "key": "TransUnion Intermediate Holdings, Inc.",
+    "values": {
+      "totalComplaints": 37610,
+      "percentTimelyResponse": 0.9999468226535496,
+      "percentCustomerDisputed": 0,
+      "topIssue": "Incorrect information on credit report"
+    }
+  },
+  {
+    "key": "Citibank",
+    "values": {
+      "totalComplaints": 33612,
+      "percentTimelyResponse": 0.9897655599190766,
+      "percentCustomerDisputed": 0,
+      "topIssue": "Loan modification, collection, foreclosure"
+    }
+  },
+  {
+    "key": "Ocwen",
+    "values": {
+      "totalComplaints": 23720,
+      "percentTimelyResponse": 0.977150084317032,
+      "percentCustomerDisputed": 0,
+      "topIssue": "Loan modification, collection, foreclosure"
+    }
+  },
+  {
+    "key": "Capital One",
+    "values": {
+      "totalComplaints": 19526,
+      "percentTimelyResponse": 0.9966198914268155,
+      "percentCustomerDisputed": 0,
+      "topIssue": "Billing disputes"
+    }
+  },
+  {
+    "key": "Navient Solutions, LLC.",
+    "values": {
+      "totalComplaints": 15936,
+      "percentTimelyResponse": 0.9999372489959839,
+      "percentCustomerDisputed": 0,
+      "topIssue": "Dealing with my lender or servicer"
+    }
+  }
+]
